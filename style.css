@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+
+.cval{
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(245, 194, 91) !important;
+}
+
+
+body{
+     background-image: linear-gradient(285deg, rgba(57, 57, 57, 0.04) 0%, rgba(57, 57, 57, 0.04) 25%,rgba(126, 126, 126, 0.04) 25%, rgba(126, 126, 126, 0.04) 50%,rgba(80, 80, 80, 0.04) 50%, rgba(80, 80, 80, 0.04) 75%,rgba(117, 117, 117, 0.04) 75%, rgba(117, 117, 117, 0.04) 100%),linear-gradient(333deg, rgba(26, 26, 26, 0.04) 0%, rgba(26, 26, 26, 0.04) 25%,rgba(154, 154, 154, 0.04) 25%, rgba(154, 154, 154, 0.04) 50%,rgba(218, 218, 218, 0.04) 50%, rgba(218, 218, 218, 0.04) 75%,rgba(91, 91, 91, 0.04) 75%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(45deg, rgba(14, 14, 14, 0.04) 0%, rgba(14, 14, 14, 0.04) 25%,rgba(216, 216, 216, 0.04) 25%, rgba(216, 216, 216, 0.04) 50%,rgba(44, 44, 44, 0.04) 50%, rgba(44, 44, 44, 0.04) 75%,rgba(111, 111, 111, 0.04) 75%, rgba(111, 111, 111, 0.04) 100%),linear-gradient(251deg, rgba(27, 27, 27, 0.04) 0%, rgba(27, 27, 27, 0.04) 25%,rgba(107, 107, 107, 0.04) 25%, rgba(107, 107, 107, 0.04) 50%,rgba(167, 167, 167, 0.04) 50%, rgba(167, 167, 167, 0.04) 75%,rgba(34, 34, 34, 0.04) 75%, rgba(34, 34, 34, 0.04) 100%),linear-gradient(63deg, rgba(114, 114, 114, 0.04) 0%, rgba(114, 114, 114, 0.04) 25%,rgba(16, 16, 16, 0.04) 25%, rgba(16, 16, 16, 0.04) 50%,rgba(190, 190, 190, 0.04) 50%, rgba(190, 190, 190, 0.04) 75%,rgba(159, 159, 159, 0.04) 75%, rgba(159, 159, 159, 0.04) 100%),linear-gradient(90deg, rgb(44, 69, 142),rgb(133, 17, 234));
+    text-align: center !important;
+    }
+.cur{
+    background-color: rgba(216, 43, 214, 0.551) !important;
+    border-radius: 10px !important;
+    border: 2px solid purple !important;
+    width: 40% !important;
+    height: 40px !important;
+    padding: 5px 13px !important;
+    font-family: "Cantata One", serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  color:rgb(255, 255, 255) !important;
+}
+::placeholder{
+    color: rgba(240, 248, 255, 0.429) !important;
+    padding: 5px 15px !important
+}
+#getdetails{
+    margin: 10px !important;
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.08),transparent,rgba(0,0,0,0.02),rgba(0,0,0,0.05),rgba(0,0,0,0.01),rgba(0,0,0,0.07),rgba(0,0,0,0.05),rgba(0,0,0,0.02),rgba(0,0,0,0.04),rgba(0,0,0,0.04),rgba(0,0,0,0.02),rgba(0,0,0,0.1),rgba(0,0,0,0.07),rgba(0,0,0,0.02),rgba(0,0,0,0.07) 3px),linear-gradient(135deg, rgb(42, 160, 254),rgb(47, 73, 131)) !important;
+    border: 2px outset aqua !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bolder !important;
+
+}
+.lab{
+
+    font-family: "Lugrasimo", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.last{
+    margin-bottom: 10px !important;
+}
+.text1{
+    text-align: justify !important;
+}
+.anger{
+    border-radius: 10px !important;
+    border: 2px groove rgb(98, 0, 255) !important;
+    background-image: linear-gradient(135deg, rgba(169, 34, 47, 0.481) 0%, rgba(219, 61, 77, 0.26) 7%,rgba(169, 46, 87, 0.26) 7%, rgba(161, 46, 84, 0.26) 23%,rgba(133, 72, 124, 0.26) 23%, rgba(133, 72, 124, 0.26) 33%,rgba(114, 92, 162, 0.26) 33%, rgba(114, 92, 162, 0.26) 63%,rgba(96, 111, 201, 0.26) 63%, rgba(96, 111, 201, 0.26) 90%,rgba(78, 130, 239, 0.26) 90%, rgba(78, 130, 239, 0.26) 100%),linear-gradient(90deg, rgba(23, 178, 123, 0.26) 0%, rgba(23, 178, 123, 0.26) 1%,rgba(39, 182, 133, 0.26) 1%, rgba(39, 182, 133, 0.26) 20%,rgba(56, 185, 143, 0.26) 20%, rgba(56, 185, 143, 0.26) 22%,rgba(72, 189, 154, 0.26) 22%, rgba(72, 189, 154, 0.26) 27%,rgba(89, 192, 164, 0.26) 27%, rgba(89, 192, 164, 0.26) 56%,rgba(105, 196, 174, 0.26) 56%, rgba(105, 196, 174, 0.26) 100%),linear-gradient(90deg, rgb(19, 41, 73) 0%, rgb(19, 41, 73) 1%,rgb(29, 50, 135) 1%, rgb(23, 37, 95) 19%,rgb(27, 33, 118) 19%, rgb(27, 33, 118) 27%,rgb(31, 29, 140) 27%, rgb(31, 29, 140) 53%,rgb(36, 26, 163) 53%, rgb(36, 26, 163) 64%,rgb(40, 22, 185) 64%, rgb(40, 22, 185) 79%,rgb(44, 18, 208) 79%, rgb(44, 18, 208) 83%,rgb(48, 14, 230) 83%, rgb(48, 14, 230) 100%) !important;
+    color:rgb(255, 255, 255) !important;
+    /* margin: 25px !important; */
+    padding: 5px 20px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bolder !important;
+    /* height: 30px !important; */
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+.card{
+    width: 50% !important;
+    padding: 12px !important;
+    margin-left: 25% !important;
+    border: 3px double black !important;
+    background-image: radial-gradient(circle at 45% 67%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 16% 36%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 69% 64%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 88% 23%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 43% 26%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 66% 45%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 71% 41%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 89% 76%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 70% 62%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 88% 20%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 57% 91%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 98% 4%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 28% 61%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 48% 96%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 13% 61%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 44% 44%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 20% 19%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),linear-gradient(135deg, rgb(76, 234, 243),rgb(92, 31, 127)) !important;
+    border-radius: 10px !important;
+    text-align: left !important;
+}
