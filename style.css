@@ -40,7 +40,7 @@ body{
 .err{
     color:rgba(193, 17, 17, 0.872) !important;
 }
-.getdetails{
+.getdetails, .clr{
     margin: 10px !important;
     background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.08),transparent,rgba(0,0,0,0.02),rgba(0,0,0,0.05),rgba(0,0,0,0.01),rgba(0,0,0,0.07),rgba(0,0,0,0.05),rgba(0,0,0,0.02),rgba(0,0,0,0.04),rgba(0,0,0,0.04),rgba(0,0,0,0.02),rgba(0,0,0,0.1),rgba(0,0,0,0.07),rgba(0,0,0,0.02),rgba(0,0,0,0.07) 3px),linear-gradient(135deg, rgb(42, 160, 254),rgb(47, 73, 131)) !important;
     border: 2px outset aqua !important;

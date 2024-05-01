@@ -19,6 +19,7 @@ getdetails.addEventListener("click", async () => {
 
     if (inputid === null || inputid === "") {  
         //if the input is not given into the input field it throws the error to catch;
+        details.innerHTML=''
       throw new Error("Please enter an Input value");
     }
     getDetails(res); //calling gerDetails function
@@ -27,10 +28,12 @@ getdetails.addEventListener("click", async () => {
   catch (error) {
     if (error instanceof TypeError) {
         //if any input format mistakes are occur when type the crypto currencies, it will display the intimation error
-      err.innerHTML = `Error: Enter all letters in lowercase`;
+        details.innerHTML=''
+        err.innerHTML = `Error: Enter all letters in lowercase`;
     } else {
         //if any other type of error occur, the error message should be displayed int the screen
-      err.innerHTML = `Error: ${error.message}`;
+        details.innerHTML=''
+        err.innerHTML = `Error: ${error.message}`;
     }
   }
 });
