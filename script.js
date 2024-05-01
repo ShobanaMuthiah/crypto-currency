@@ -43,7 +43,7 @@ function getDetails(res) {
   // console.log(d);
   //displaying the specific values into the screen
   details.innerHTML = `
-<div class="card ">
+<div class="card">
 <div class="title row row-cols-1 row-cols-sm-2 g-lg-2 g-md-4 mb-lg-2 " ><div class="col lab">Currency:</div><div class="col cval "> ${
     d.name
   }</div>
